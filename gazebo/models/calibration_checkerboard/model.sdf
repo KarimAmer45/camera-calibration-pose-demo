@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="calibration_checkerboard">
+    <static>true</static>
+    <link name="board">
+      <collision name="backing_collision">
+        <geometry>
+          <box>
+            <size>0.42 0.30 0.006</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="backing">
+        <geometry>
+          <box>
+            <size>0.42 0.30 0.004</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+      </visual>
+      <visual name="black_0_0">
+        <pose>-0.18 -0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_0_2">
+        <pose>-0.10 -0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_0_4">
+        <pose>-0.02 -0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_0_6">
+        <pose>0.06 -0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_0_8">
+        <pose>0.14 -0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_1_1">
+        <pose>-0.14 -0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_1_3">
+        <pose>-0.06 -0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_1_5">
+        <pose>0.02 -0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_1_7">
+        <pose>0.10 -0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_1_9">
+        <pose>0.18 -0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_2_0">
+        <pose>-0.18 -0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_2_2">
+        <pose>-0.10 -0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_2_4">
+        <pose>-0.02 -0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_2_6">
+        <pose>0.06 -0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_2_8">
+        <pose>0.14 -0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_3_1">
+        <pose>-0.14 0.00 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_3_3">
+        <pose>-0.06 0.00 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_3_5">
+        <pose>0.02 0.00 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_3_7">
+        <pose>0.10 0.00 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_3_9">
+        <pose>0.18 0.00 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_4_0">
+        <pose>-0.18 0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_4_2">
+        <pose>-0.10 0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_4_4">
+        <pose>-0.02 0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_4_6">
+        <pose>0.06 0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_4_8">
+        <pose>0.14 0.04 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_5_1">
+        <pose>-0.14 0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_5_3">
+        <pose>-0.06 0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_5_5">
+        <pose>0.02 0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_5_7">
+        <pose>0.10 0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_5_9">
+        <pose>0.18 0.08 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_6_0">
+        <pose>-0.18 0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_6_2">
+        <pose>-0.10 0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_6_4">
+        <pose>-0.02 0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_6_6">
+        <pose>0.06 0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+      <visual name="black_6_8">
+        <pose>0.14 0.12 0.004 0 0 0</pose>
+        <geometry><box><size>0.04 0.04 0.004</size></box></geometry>
+        <material><ambient>0.02 0.02 0.02 1</ambient><diffuse>0.02 0.02 0.02 1</diffuse></material>
+      </visual>
+    </link>
+  </model>
+</sdf>

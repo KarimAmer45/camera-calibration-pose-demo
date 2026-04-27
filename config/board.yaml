@@ -1,0 +1,4 @@
+board:
+  type: chessboard
+  inner_corners: [9, 6]
+  square_size_m: 0.04

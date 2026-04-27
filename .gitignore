@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Demo outputs
+data/
+output/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

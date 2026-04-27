@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="camera_pose_lab">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <name>calibration_checkerboard</name>
+      <uri>model://calibration_checkerboard</uri>
+      <pose>1.45 0 0.7 0 -1.5708 0</pose>
+    </include>
+
+    <model name="matte_backdrop">
+      <static>true</static>
+      <pose>1.55 0 0.7 0 0 0</pose>
+      <link name="wall">
+        <visual name="wall_visual">
+          <geometry>
+            <box>
+              <size>0.02 1.4 1.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.62 0.66 0.68 1</ambient>
+            <diffuse>0.62 0.66 0.68 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <physics name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+  </world>
+</sdf>

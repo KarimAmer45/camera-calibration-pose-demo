@@ -85,3 +85,24 @@ camera image and camera info.
 - The default target has 9 x 6 inner corners with 0.04 m square spacing.
 - Gazebo support is included as project assets. It requires a Linux ROS/Gazebo
   environment; the offline OpenCV tools can be run independently.
+
+## Result screenshots
+
+![camera-calibration-pose-demo result screenshot](docs/results/result-screenshot.png)
+
+Offline command flow for synthetic calibration and chessboard pose overlay generation.
+
+
+## What this demonstrates
+
+- End-to-end camera calibration and pose estimation as a ROS 2-friendly Python package.
+- Separation between offline OpenCV utilities and simulation launch assets.
+- A repeatable synthetic-data path for testing the calibration workflow without a physical camera.
+
+
+## Limitations and next steps
+
+- The strongest demo path still assumes OpenCV and, for simulation, a ROS 2/Gazebo environment.
+- Synthetic samples do not replace real lens distortion and lighting variation.
+- Next steps: add recorded real-camera samples and publish a short Gazebo run capture.
+

@@ -22,7 +22,7 @@ urdf/                      Simulated camera rig
 requirements.txt           Offline Python dependencies
 ```
 
-## Offline Demo
+## Offline workflow
 
 Create a virtual environment and install the OpenCV dependencies:
 
@@ -58,7 +58,7 @@ python -m camera_pose_demo.estimate_pose \
 The pose command prints translation, rotation vector, and camera-frame Euler
 angles as JSON.
 
-## ROS 2 + Gazebo Demo
+## ROS 2 + Gazebo workflow
 
 This launch file targets ROS 2 with Gazebo Classic and `gazebo_ros`.
 
@@ -86,21 +86,21 @@ camera image and camera info.
 - Gazebo support is included as project assets. It requires a Linux ROS/Gazebo
   environment; the offline OpenCV tools can be run independently.
 
-## Result screenshots
+## Example output
 
 ![camera-calibration-pose-demo result screenshot](docs/results/result-screenshot.png)
 
 Offline command flow for synthetic calibration and chessboard pose overlay generation.
 
 
-## What this demonstrates
+## Calibration notes
 
 - End-to-end camera calibration and pose estimation as a ROS 2-friendly Python package.
 - Separation between offline OpenCV utilities and simulation launch assets.
 - A repeatable synthetic-data path for testing the calibration workflow without a physical camera.
 
 
-## Limitations and next steps
+## Validation and next steps
 
 - The strongest demo path still assumes OpenCV and, for simulation, a ROS 2/Gazebo environment.
 - Synthetic samples do not replace real lens distortion and lighting variation.

@@ -22,7 +22,7 @@ setup(
     install_requires=["setuptools", "numpy", "opencv-python", "PyYAML"],
     zip_safe=True,
     maintainer="Camera Pose Demo Maintainer",
-    maintainer_email="maintainer@example.com",
+    maintainer_email="karimamer456@gmail.com",
     description="Camera calibration and chessboard pose estimation demo with Gazebo simulation assets.",
     license="MIT",
     entry_points={

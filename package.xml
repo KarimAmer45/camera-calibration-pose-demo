@@ -3,7 +3,7 @@
   <name>camera_pose_demo</name>
   <version>0.1.0</version>
   <description>Camera calibration and chessboard pose estimation demo with Gazebo simulation assets.</description>
-  <maintainer email="maintainer@example.com">Camera Pose Demo Maintainer</maintainer>
+  <maintainer email="karimamer456@gmail.com">Camera Pose Demo Maintainer</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
